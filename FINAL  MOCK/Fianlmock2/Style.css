@@ -1,0 +1,52 @@
+*
+{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+     background-color: rgb(232, 232, 232);
+}
+
+section
+{
+     margin-top: 200px;
+     margin-left: 600px;
+     padding: 40px;
+     width: 320px;
+     background-color:white;
+     border-radius: 18px;
+
+}
+.account
+{
+     color: white;
+     margin: 10px;
+     border: none;
+     margin-left: 70px;
+     padding: 5px;
+     border-radius: 2px;
+     background-color:rgb(58, 224, 58);
+}
+input{
+      width: 230px;  
+      height: 30px;   
+     margin: 7px;
+     font-size: 14px;
+}
+.b1
+{
+     margin-top: 10px;
+     border: none;
+     margin-left: 6px;
+     height:32px;width: 232px;
+     border-radius: 5px;
+     color: white;
+     background-color:blue;
+}
+p{
+     color: blue;
+     font-weight: bold;
+     margin-left: 70px;
+}

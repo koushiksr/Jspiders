@@ -1,0 +1,77 @@
+/*p,h3,a
+{
+    color: brown;
+}
+
+
+
+p.jsp
+{
+
+    color: red;
+    font-size: 50px;
+    text-shadow: 2px 3px 2px blue;
+
+}
+
+h3.jsp{
+    color: green;
+    font-size: 50px;
+    text-shadow: 2px 3px 2px;
+
+} 
+
+.jsp
+{
+    color: red;
+    font-size: large;
+    text-shadow: 2px 2px 3px green;
+} */
+
+h1
+{
+    color: red;  //element selecter
+}
+
+h2,h3
+{
+    color: darkgoldenrod;  // group selecter
+}
+.h3
+{
+    color: yellow;          // class sekecter
+}
+h4.h4
+{
+    color: greenyellow;     //generic class selecter
+}
+#h5
+{
+    color:green             // id selecter
+}
+a[href]
+{
+    color: aqua;           //attribute selecter  
+}
+a[href="http://"]
+{
+    color: blueviolet;     //attribute value selecter
+}
+h5>a
+{
+color: blue;               //child selecter
+}
+h4+a
+{
+color: red;                //adjucent siblling selecter
+}
+
+h3 ~ p
+{
+    color: green;           //general sibling selecter
+}
+
+nav ol li
+{
+    color: blue;            //decendent selecter
+}

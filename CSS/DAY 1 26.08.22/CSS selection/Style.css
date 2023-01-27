@@ -1,0 +1,25 @@
+/* Element selecter
+h1{
+    color:green;
+    text-shadow: 2px 2px 1px red;
+}
+r
+
+a{
+    color:green;
+    text-shadow: 2px 2px 1px red;
+}
+
+p{
+    color:blue;
+    text-shadow: 2px 2px 1px red;
+}
+
+*/
+
+p,a,h1
+{
+    color:blue;
+    text-shadow: 2px 2px 1px red;
+}
+
